@@ -18,6 +18,10 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				'merriweather': ['Merriweather', 'serif'],
+				'open-sans': ['Open Sans', 'sans-serif'],
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
@@ -27,6 +31,13 @@ export default {
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
 					foreground: 'hsl(var(--primary-foreground))'
+				},
+				academic: {
+					blue: '#2563EB',
+					'blue-light': '#3B82F6',
+					gray: '#F8FAFC',
+					'gray-dark': '#1F2937',
+					'gray-medium': '#6B7280'
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
